@@ -1,0 +1,6 @@
+# Delete processed files older than 2 hours.
+# Absolute path to ./public/tmp and ./public/tmp_output is required.
+
+*/5 * * * * find /var/www/file2png/public/tmp -type f -mmin +120 -delete
+*/5 * * * * find /var/www/file2png/public/tmp_output -type f -mmin +120 -delete
+

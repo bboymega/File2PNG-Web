@@ -1,0 +1,9 @@
+Options -Indexes
+
+<Files .htaccess>
+	Order allow,deny
+	Deny from all
+</Files>
+
+RewriteEngine On
+RewriteRule ^tmp/ - [R=403,L]
