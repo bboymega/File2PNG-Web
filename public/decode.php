@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="theme-color" content="#2C4DC1">
+	<meta name="theme-color" content="#b8ffcb">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="File2PNG - Encode Any File as PNG.">
 	<meta name="keywords" content="file2png, encryption, file, tools">
@@ -52,9 +52,9 @@
   {
 	$path = "./tmp/";
 	$randname = generateRandomString();
-    $path = $path . urldecode($_FILES['upload_file']['name']);
+    $path = $path . basename(urldecode($_FILES['upload_file']['name']));
     if(move_uploaded_file(urldecode($_FILES['upload_file']['tmp_name']), $path)) {
-		$upload_file=urldecode($_FILES['upload_file']['name']);
+		$upload_file=basename(urldecode($_FILES['upload_file']['name']));
 		decodefile($upload_file);
     }
   }

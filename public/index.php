@@ -15,10 +15,10 @@
 	<script src="js/upload.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="theme-color" content="#2C4DC1">
+	<meta name="theme-color" content="#b8ffcb">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="File2PNG - Encode Any File as PNG.">
-	<meta name="keywords" content="file2png, encryption, file, tools">
+	<meta name="keywords" content="file2png, encryption, file, tools, png, encoding, file processing">
     <title>File2PNG - Encode Any File as PNG - File2PNG.ORG</title>
 	<link rel="icon" type="image/x-icon" href="/images/favicon.png" sizes="16x16">
 	<style type="text/css">
@@ -32,14 +32,17 @@
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="./" style="font-family:Ronysiswad" >File2PNG</a>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b8ffcb">
+      <a class="navbar-brand" href="./" style="font-family:Ronysiswad" >
+		  <img src="/images/favicon.png" width="30" height="30" alt="">
+		  File2PNG
+	  </a>
     </nav>
     <div class="container mt-2">
       <div class="row">
         <div class="col-12">
-          <div class="jumbotron">
-            <h1 class="text-center" style="font-family:Ronysiswad" >File2PNG - Encode Any File As PNG</h1>
+          <div class="jumbotron" >
+            <h1 class="text-center" style="font-family:Ronysiswad">File2PNG - Encode Any File As PNG</h1>
             <div class="row justify-content-center">
 			  <div class="col-auto text-center">
 				  	<p></br><label for="upload_file" class="btn btn-outline-dark" style="font-family:Ronysiswad" >Select...</br>Max File Size: 2GB</label></p>
