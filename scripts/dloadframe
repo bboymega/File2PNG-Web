@@ -1,6 +1,8 @@
 #!/bin/sh
-echo "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">"
-echo "<a class=\"navbar-brand\" href=\"./\" style=\"font-family:Ronysiswad\">File2PNG</a>"
+echo "<nav class=\"navbar navbar-expand-lg navbar-light\" style=\"background-color: #b8ffcb\">"
+echo "<a class=\"navbar-brand\" href=\"./\" style=\"font-family:Ronysiswad\">"
+echo "<img src=\"/images/favicon.png\" width=\"30\" height=\"30\" alt=\"\">"
+echo "File2PNG</a>"
 echo "</nav>"
 echo "<div class=\"container mt-2\">"
 echo "<div class=\"row\">"
