@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="File2PNG - Encode Any File as PNG.">
 	<meta name="keywords" content="file2png, encryption, file, tools">
-	<title>File2PNG - Encode Any File as PNG - File2PNG.ORG</title>
+	<title>File2PNG - Encode Any File as PNG</title>
 	<link rel="icon" type="image/x-icon" href="/images/favicon.png" sizes="16x16">
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	<style type="text/css">
