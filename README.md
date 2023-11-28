@@ -2,8 +2,6 @@
 
 This project is a front-end web application based on rekcuFniarB/File2PNG.
 
-The website is live at <a href="https://file2png.com" target="_blank">File2PNG.com</a>
-
 <img src="a1.png" alt="a1" width="700"/>
 
 # Installation Guide 
